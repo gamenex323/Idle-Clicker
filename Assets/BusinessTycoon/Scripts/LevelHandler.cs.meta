@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bb7608344e3aeee40b52d3f1afcbaac7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/LevelHandler.cs
+  uploadId: 648770

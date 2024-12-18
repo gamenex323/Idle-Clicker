@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fcc3fa27e02f3814d8ee812b3d27fbbc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/UI/ResetLevelUI.cs
+  uploadId: 648770

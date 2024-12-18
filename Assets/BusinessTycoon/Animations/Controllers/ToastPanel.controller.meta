@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e2cea19b20d23b47a292d2120b22207
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Animations/Controllers/ToastPanel.controller
+  uploadId: 648770

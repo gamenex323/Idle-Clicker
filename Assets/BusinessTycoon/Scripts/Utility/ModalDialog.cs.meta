@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 27c4ac8e976e2ef48bfa0a2d89e34a4f
+timeCreated: 1518179521
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/Utility/ModalDialog.cs
+  uploadId: 648770

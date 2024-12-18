@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 94eeadbf417e7c841bc9692d3e0020ed
+timeCreated: 1517858529
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/UI/BusinessUI.cs
+  uploadId: 648770

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 895a9c491ff9e55489c8c791bce840d3
+timeCreated: 1466585535
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/UI/SpinWheel.cs
+  uploadId: 648770

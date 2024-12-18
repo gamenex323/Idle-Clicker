@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 577368dcd9301f64c9cd42c2d0e74bf8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Animations/SlideInMessage.anim
+  uploadId: 648770

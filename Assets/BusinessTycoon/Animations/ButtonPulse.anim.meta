@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1d7b0588bcad57a49befa554ed9c419e
+timeCreated: 1521751125
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Animations/ButtonPulse.anim
+  uploadId: 648770

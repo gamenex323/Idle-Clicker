@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fa85b8a6548f7ac46a4547c518119256
+timeCreated: 1518209726
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Scripts/Model/Milestone.cs
+  uploadId: 648770

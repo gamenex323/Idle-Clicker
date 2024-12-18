@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9340cf5133864c90a79994fd1c1ad887
+timeCreated: 1519427177
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Animations/ProgressMax.anim
+  uploadId: 648770

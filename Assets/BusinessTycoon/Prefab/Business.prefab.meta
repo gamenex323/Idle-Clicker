@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2b3e3c1dc2c1bfa4189870b2e24c5065
+timeCreated: 1519303330
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Prefab/Business.prefab
+  uploadId: 648770

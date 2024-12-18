@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0b594071fd8b75842a9150fea962df14
+timeCreated: 1521334233
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276504
+  packageName: Business Tycoon - Idle Clicker
+  packageVersion: 1.0.0
+  assetPath: Assets/BusinessTycoon/Animations/Controllers/RotateBurst.controller
+  uploadId: 648770
