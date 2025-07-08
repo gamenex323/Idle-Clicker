@@ -139,16 +139,16 @@ public class PlayFabLoginManager : MonoBehaviour
     void OnLeaderboardSuccess(GetLeaderboardResult result)
     {
         Debug.Log("Leaderboard fetched successfully!");
-        MainUIController.instance.DeleteLeaderBoard();
-        foreach (var entry in result.Leaderboard)
-        {
-            Debug.Log($"Rank: {entry.Position}, Player: {entry.DisplayName ?? entry.PlayFabId}, Score: {entry.StatValue}");
-            GameObject card = Instantiate(MainUIController.instance.ScoreCardPrefab, MainUIController.instance.Content);
-            card.GetComponent<CardInfo>().rank.text = (entry.Position + 1).ToString();
-            card.GetComponent<CardInfo>().playerName.text = entry.DisplayName ?? entry.PlayFabId;
-            card.GetComponent<CardInfo>().playerScore.text = entry.StatValue.ToString();
-            MainUIController.instance.LeaderboardCards.Add(card);
-        }
+        //MainUIController.instance.DeleteLeaderBoard();
+        //foreach (var entry in result.Leaderboard)
+        //{
+        //    Debug.Log($"Rank: {entry.Position}, Player: {entry.DisplayName ?? entry.PlayFabId}, Score: {entry.StatValue}");
+        //    GameObject card = Instantiate(MainUIController.instance.ScoreCardPrefab, MainUIController.instance.Content);
+        //    card.GetComponent<CardInfo>().rank.text = (entry.Position + 1).ToString();
+        //    card.GetComponent<CardInfo>().playerName.text = entry.DisplayName ?? entry.PlayFabId;
+        //    card.GetComponent<CardInfo>().playerScore.text = entry.StatValue.ToString();
+        //    MainUIController.instance.LeaderboardCards.Add(card);
+        //}
     }
 
     void OnLeaderboardFailure(PlayFabError error)
