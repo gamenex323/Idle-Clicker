@@ -19,7 +19,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 1,
-                        Name = "Restaurant",
+                        Name = "Local Club",
                         PurchasedCount = 1,
                         BaseCost = 3.738318f,
                         BaseProfit = 1,
@@ -30,7 +30,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 2,
-                        Name = "Tv station",
+                        Name = "Regional League",
                         PurchasedCount = 0,
                         BaseCost = 60,
                         BaseProfit = 60,
@@ -41,7 +41,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 3,
-                        Name = "Coffee shop",
+                        Name = "National League",
                         PurchasedCount = 0,
                         BaseCost = 720,
                         BaseProfit = 540,
@@ -52,7 +52,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 4,
-                        Name = "Supermarket",
+                        Name = "Continental League",
                         PurchasedCount = 0,
                         BaseCost = 8640,
                         BaseProfit = 4320,
@@ -63,7 +63,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 5,
-                        Name = "Jewelry shop",
+                        Name = "World League",
                         PurchasedCount = 0,
                         BaseCost = 103680,
                         BaseProfit = 51840,
@@ -74,7 +74,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 6,
-                        Name = "Hotel",
+                        Name = "Fantasy League",
                         PurchasedCount = 0,
                         BaseCost = 1244160,
                         BaseProfit = 622080,
@@ -85,7 +85,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 7,
-                        Name = "Casino",
+                        Name = "Club Championship",
                         PurchasedCount = 0,
                         BaseCost = 14929920,
                         BaseProfit = 7464960,
@@ -96,7 +96,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 8,
-                        Name = "Bank",
+                        Name = "Youth Academy",
                         PurchasedCount = 0,
                         BaseCost = 179159040,
                         BaseProfit = 89579520,
@@ -107,7 +107,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 9,
-                        Name = "Science lab",
+                        Name = "Rivalry Cup",
                         PurchasedCount = 0,
                         BaseCost = 2149908480,
                         BaseProfit = 1074954240,
@@ -118,7 +118,7 @@ public class LevelHandler
                     new Business
                     {
                         Id = 10,
-                        Name = "Space station",
+                        Name = "Legends League",
                         PurchasedCount = 0,
                         BaseCost = 25798901760,
                         BaseProfit = 29668737024,
@@ -129,336 +129,36 @@ public class LevelHandler
                 },
             Managers = new List<Manager>()
                 {
-                    new Manager
-                    {
-                        Id = 1,
-                        BusinessId = 1,
-                        CurrencyId = 0,
-                        Name = "Mark Curry",
-                        Cost = 1000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 2,
-                        BusinessId = 2,
-                        CurrencyId = 0,
-                        Name = "William Jones",
-                        Cost = 10000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 3,
-                        BusinessId = 3,
-                        CurrencyId = 0,
-                        Name = "Andy Strong",
-                        Cost = 100000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 4,
-                        BusinessId = 4,
-                        CurrencyId = 0,
-                        Name = "Richard Tidwell",
-                        Cost = 500000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 5,
-                        BusinessId = 5,
-                        CurrencyId = 0,
-                        Name = "Jack Power",
-                        Cost = 1000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 6,
-                        BusinessId = 6,
-                        CurrencyId = 0,
-                        Name = "Toby Banks",
-                        Cost = 10000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 7,
-                        BusinessId = 7,
-                        CurrencyId = 0,
-                        Name = "Steven Jones",
-                        Cost = 100000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 8,
-                        BusinessId = 8,
-                        CurrencyId = 0,
-                        Name = "Howard Patterson",
-                        Cost = 500000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 9,
-                        BusinessId = 9,
-                        CurrencyId = 0,
-                        Name = "Harry Anderson",
-                        Cost = 10000000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 10,
-                        BusinessId = 10,
-                        CurrencyId = 0,
-                        Name = "Kurt Adams",
-                        Cost = 100000000000,
-                        EffectType = "Run",
-                        Effect = 0,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 11,
-                        BusinessId = 10,
-                        CurrencyId = 0,
-                        Name = "Jaime Magwood",
-                        Cost = 100E+12,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 12,
-                        BusinessId = 9,
-                        CurrencyId = 0,
-                        Name = "Charles Dubois",
-                        Cost = 100E+15,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 13,
-                        BusinessId = 8,
-                        CurrencyId = 0,
-                        Name = "Edward Blair",
-                        Cost = 100E+18,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 14,
-                        BusinessId = 7,
-                        CurrencyId = 0,
-                        Name = "Nicholas French",
-                        Cost = 100E+21,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 15,
-                        BusinessId = 6,
-                        CurrencyId = 0,
-                        Name = "Peter Glass",
-                        Cost = 100E+24,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 16,
-                        BusinessId = 5,
-                        CurrencyId = 0,
-                        Name = "Joshua Johnson",
-                        Cost = 100E+27,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 17,
-                        BusinessId = 4,
-                        CurrencyId = 0,
-                        Name = "Theodore Young",
-                        Cost = 100E+30,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 18,
-                        BusinessId = 3,
-                        CurrencyId = 0,
-                        Name = "Raymond Lewis",
-                        Cost = 100E+33,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 19,
-                        BusinessId = 2,
-                        CurrencyId = 0,
-                        Name = "Patrick Henderson",
-                        Cost = 100E+36,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 20,
-                        BusinessId = 1,
-                        CurrencyId = 0,
-                        Name = "Steve Andersen",
-                        Cost = 100E+39,
-                        EffectType = "Cost",
-                        Effect = 0.100000001490116,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 21,
-                        BusinessId = 2,
-                        CurrencyId = 0,
-                        Name = "John Kraft",
-                        Cost = 1E+103,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 22,
-                        BusinessId = 7,
-                        CurrencyId = 0,
-                        Name = "Jeffrey Smith",
-                        Cost = 7.5E+106,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 23,
-                        BusinessId = 8,
-                        CurrencyId = 0,
-                        Name = "Nelson Stephens",
-                        Cost = 2.5E+110,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 24,
-                        BusinessId = 4,
-                        CurrencyId = 0,
-                        Name = "Curtis James",
-                        Cost = 1E+113,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 25,
-                        BusinessId = 9,
-                        CurrencyId = 0,
-                        Name = "David Courtney",
-                        Cost = 5E+115,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 26,
-                        BusinessId = 5,
-                        CurrencyId = 0,
-                        Name = "Christopher Monroy",
-                        Cost = 3E+117,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 27,
-                        BusinessId = 6,
-                        CurrencyId = 0,
-                        Name = "Zachary Powell",
-                        Cost = 7.5E+119,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 28,
-                        BusinessId = 3,
-                        CurrencyId = 0,
-                        Name = "Kevin Lewis",
-                        Cost = 3E+120,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 29,
-                        BusinessId = 10,
-                        CurrencyId = 0,
-                        Name = "Milton Drew",
-                        Cost = 3.3E+124,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
-                    new Manager
-                    {
-                        Id = 30,
-                        BusinessId = 1,
-                        CurrencyId = 0,
-                        Name = "Charles McNeill",
-                        Cost = 9E+126,
-                        EffectType = "Cost",
-                        Effect = 0.999989986419678,
-                        Unlocked = false
-                    },
+                    new Manager { Id = 1, BusinessId = 1, CurrencyId = 0, Name = "Liam Carter", Cost = 1000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 2, BusinessId = 2, CurrencyId = 0, Name = "Noah Bennett", Cost = 10000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 3, BusinessId = 3, CurrencyId = 0, Name = "Ethan Bradley", Cost = 100000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 4, BusinessId = 4, CurrencyId = 0, Name = "Mason Collins", Cost = 500000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 5, BusinessId = 5, CurrencyId = 0, Name = "Lucas Graham", Cost = 1000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 6, BusinessId = 6, CurrencyId = 0, Name = "Oliver Hunter", Cost = 10000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 7, BusinessId = 7, CurrencyId = 0, Name = "Henry Davis", Cost = 100000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 8, BusinessId = 8, CurrencyId = 0, Name = "Caleb Foster", Cost = 500000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 9, BusinessId = 9, CurrencyId = 0, Name = "Leo Richardson", Cost = 10000000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 10, BusinessId = 10, CurrencyId = 0, Name = "Logan Matthews", Cost = 100000000000, EffectType = "Run", Effect = 0, Unlocked = false },
+                    new Manager { Id = 11, BusinessId = 10, CurrencyId = 0, Name = "Max Sinclair", Cost = 100E+12, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 12, BusinessId = 9, CurrencyId = 0, Name = "Felix Monroe", Cost = 100E+15, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 13, BusinessId = 8, CurrencyId = 0, Name = "Sebastian Doyle", Cost = 100E+18, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 14, BusinessId = 7, CurrencyId = 0, Name = "Elijah Cruz", Cost = 100E+21, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 15, BusinessId = 6, CurrencyId = 0, Name = "Isaac Becker", Cost = 100E+24, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 16, BusinessId = 5, CurrencyId = 0, Name = "Gabriel Knight", Cost = 100E+27, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 17, BusinessId = 4, CurrencyId = 0, Name = "Julian Rhodes", Cost = 100E+30, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 18, BusinessId = 3, CurrencyId = 0, Name = "Aiden Wolfe", Cost = 100E+33, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 19, BusinessId = 2, CurrencyId = 0, Name = "Xavier Black", Cost = 100E+36, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 20, BusinessId = 1, CurrencyId = 0, Name = "Owen Marshall", Cost = 100E+39, EffectType = "Cost", Effect = 0.100000001490116, Unlocked = false },
+                    new Manager { Id = 21, BusinessId = 2, CurrencyId = 0, Name = "Ashton Perry", Cost = 1E+103, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 22, BusinessId = 7, CurrencyId = 0, Name = "Roman Steele", Cost = 7.5E+106, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 23, BusinessId = 8, CurrencyId = 0, Name = "Nolan Brooks", Cost = 2.5E+110, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 24, BusinessId = 4, CurrencyId = 0, Name = "Micah Vaughn", Cost = 1E+113, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 25, BusinessId = 9, CurrencyId = 0, Name = "Levi Daniels", Cost = 5E+115, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 26, BusinessId = 5, CurrencyId = 0, Name = "Everett Cole", Cost = 3E+117, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 27, BusinessId = 6, CurrencyId = 0, Name = "Hudson Clarke", Cost = 7.5E+119, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 28, BusinessId = 3, CurrencyId = 0, Name = "Kai Baldwin", Cost = 3E+120, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 29, BusinessId = 10, CurrencyId = 0, Name = "Weston Nash", Cost = 3.3E+124, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false },
+                    new Manager { Id = 30, BusinessId = 1, CurrencyId = 0, Name = "Elias Ford", Cost = 9E+126, EffectType = "Cost", Effect = 0.999989986419678, Unlocked = false }
                 },
             Upgrades = new List<Upgrade>()
                 {

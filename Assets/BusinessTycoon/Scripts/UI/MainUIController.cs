@@ -186,7 +186,7 @@ public class MainUIController : MonoBehaviour
     {
         currentInvestorText.text = NumberUtility.Convert(gameManager.LevelData.Investors, 1000000.0);
         currentInvestorEffectText.text = (gameManager.LevelData.InvestorEffect * 100) + "% per investor point.";
-       
+
         investorsPanel.Show();
     }
 
@@ -442,7 +442,7 @@ public class MainUIController : MonoBehaviour
             var text = NumberUtility.Convert(unformatted, 1000000000.0, true);
             var array = text.Split(new char[] { ' ' }, StringSplitOptions.None);
 
-            balanceText.text = "$ " + array[0];
+            balanceText.text = "" + array[0];
             if (array.Length > 1)
             {
                 balanceScaleText.text = array[1].ToUpper();

@@ -123,11 +123,11 @@ public class BusinessUI : MonoBehaviour
 
         if (GameManager.instance.LevelData.BuyCount == -1)
         {
-            buyLabel.text = "Buy x" + canAfford;
+            buyLabel.text = "Upgrade Stadium x" + canAfford;
         }
         else
         {
-            buyLabel.text = "Buy x" + GameManager.instance.LevelData.BuyCount;
+            buyLabel.text = "Upgrade Stadium x" + GameManager.instance.LevelData.BuyCount;
         }
         UpdateMilestoneProgress(quantity);
     }
