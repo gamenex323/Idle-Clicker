@@ -597,7 +597,7 @@ public class MainUIController : MonoBehaviour
     {
         yield return null;
         var products = gameManager.LevelData.Products.OrderByDescending(t => t.CurrencyId).ThenBy(t => t.Cost).ThenBy(t => t.BusinessId).ToList();
-        products.AddRange(PurchaseManager.instance.Products.OrderBy(t => t.Cost));
+        //products.AddRange(PurchaseManager.instance.Products.OrderBy(t => t.Cost));
 
         foreach (var productItem in products)
         {

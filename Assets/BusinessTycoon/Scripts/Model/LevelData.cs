@@ -436,7 +436,7 @@ public class LevelData
                 GameManager.instance.GameState.Gold -= product.Cost;
                 break;
             case 10: // Real Money
-                PurchaseManager.instance.BuyProductID(product.SKU);
+                //PurchaseManager.instance.BuyProductID(product.SKU);
                 return;
             default:
                 return;
