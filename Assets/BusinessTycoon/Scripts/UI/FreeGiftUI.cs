@@ -15,7 +15,7 @@ public class FreeGiftUI : MonoBehaviour
 
     private RectTransform rectTransform;
 
-    private Reward currentReward;
+    private RewardBusiness currentReward;
 
     private void Awake()
     {
@@ -52,7 +52,7 @@ public class FreeGiftUI : MonoBehaviour
     public void OnClaimClicked()
     {
         GameManager.instance.LevelData.LastFreeGift = DateTime.Now.AddHours(4).ToOADate();
-        GameManager.instance.GameState.FreeGift = Reward.GetRandomReward(false);
+        GameManager.instance.GameState.FreeGift = RewardBusiness.GetRandomReward(false);
         RewardUI.instance.Show(currentReward);
         OnCloseClick();
     }
@@ -61,7 +61,7 @@ public class FreeGiftUI : MonoBehaviour
     {
         currentReward.Count *= 2;
         GameManager.instance.LevelData.LastFreeGift = DateTime.Now.AddHours(4).ToOADate();
-        GameManager.instance.GameState.FreeGift = Reward.GetRandomReward(false);
+        GameManager.instance.GameState.FreeGift = RewardBusiness.GetRandomReward(false);
         RewardUI.instance.Show(currentReward);
         OnCloseClick();
     }

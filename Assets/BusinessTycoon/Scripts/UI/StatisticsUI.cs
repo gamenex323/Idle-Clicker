@@ -74,6 +74,8 @@ public class StatisticsUI : MonoBehaviour
         }
 
         instance.rectTransform.Show();
+
+        //MediationManager.instance.ShowAd();
     }
 
     public void Hide()

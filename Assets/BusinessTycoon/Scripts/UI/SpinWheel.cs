@@ -21,7 +21,7 @@ public class SpinWheel : MonoBehaviour
     private Text[] texts;
 
     private int time;
-    private List<Reward> rewards;
+    private List<RewardBusiness> rewards;
 
     private bool spinning;
     private float anglePerItem;
@@ -35,10 +35,10 @@ public class SpinWheel : MonoBehaviour
             spinning = false;
             startSpinButton.gameObject.SetActive(true);
             transform.eulerAngles = Vector3.zero;
-            rewards = new List<Reward>();
+            rewards = new List<RewardBusiness>();
             for (var i = 0; i < 8; i++)
             {
-                rewards.Add(Reward.GetRandomReward(true));
+                rewards.Add(RewardBusiness.GetRandomReward(true));
                 images[i].sprite = GameManager.instance.FindItemSpriteSheetIcon(rewards[i].Type);
                 texts[i].text = string.Format(rewards[i].ShortDescription, rewards[i].Count);
             }

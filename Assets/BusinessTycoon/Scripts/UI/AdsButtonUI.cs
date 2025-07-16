@@ -28,28 +28,46 @@ public class AdsButtonUI : MonoBehaviour
 
     void Update()
     {
-        var ready = (AdManager.instance != null && AdManager.instance.UnityAdReady());
+        //var ready = (AdManager.instance != null && AdManager.instance.UnityAdReady());
 
-        if (button)
-        {
-            button.interactable = ready;
-        }
+        //if (button)
+        //{
+        //    button.interactable = ready;
+        //}
 
-        if (buttonText)
-        {
-            if (ready)
-            {
-                buttonText.color = Color.white;
-            }
-            else
-            {
-                buttonText.color = GameManager.instance.InactiveButtonTextColor;
-            }
-        }
+        //if (buttonText)
+        //{
+        //    if (ready)
+        //    {
+        //        buttonText.color = Color.white;
+        //    }
+        //    else
+        //    {
+        //        buttonText.color = GameManager.instance.InactiveButtonTextColor;
+        //    }
+        //}
     }
 
     void ShowAd()
     {
-        AdManager.instance.ShowAd(rewardType);
+        MainUIController.instance.rewarType = rewardType;
+        AdsManager.Instance.ShowRewardAd(GiveReward);
+
+    }
+
+    void GiveReward(string callback)
+    {
+        switch (MainUIController.instance.rewarType)
+        {
+            case "OfflineEarning":
+                MainUIController.instance.DoubleOfflineEarning();
+                break;
+            case "DoubleGift":
+                FreeGiftUI.instance.DoubleReward();
+                break;
+            case "DoubleProfit":
+                ProfitBoostUI.instance.ExtendBoostTime();
+                break;
+        }
     }
 }

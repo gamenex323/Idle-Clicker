@@ -37,7 +37,7 @@ public class RewardUI : MonoBehaviour
         rectTransform.Hide();
     }
 
-    public void Show(Reward reward, float timeToShow = 3.5f)
+    public void Show(RewardBusiness reward, float timeToShow = 3.5f)
     {
         titleText.text = reward.Title;
         bodyText.text = string.Format(reward.LongDescription, reward.Count);

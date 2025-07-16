@@ -223,7 +223,7 @@ public class GameManager : MonoBehaviour
 
         if (GameState.FreeGift == null || GameState.FreeGift.Count == 0)
         {
-            GameState.FreeGift = Reward.GetRandomReward(false);
+            GameState.FreeGift = RewardBusiness.GetRandomReward(false);
         }
     }
 

@@ -1,10 +1,13 @@
 {
   "dependencies": {
+    "com.beanbag.adsmanager": "4.5.2",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.ide.rider": "3.0.31",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.inputsystem": "1.11.2",
+    "com.unity.purchasing": "4.13.0",
+    "com.unity.recorder": "4.0.3",
     "com.unity.render-pipelines.universal": "17.0.3",
     "com.unity.test-framework": "1.4.5",
     "com.unity.timeline": "1.8.7",
@@ -41,5 +44,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Bean Bag",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.beanbag"
+      ]
+    }
+  ]
 }

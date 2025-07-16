@@ -123,4 +123,5 @@ public class ProductItem : MonoBehaviour
             DestroyItem();
         }
     }
+
 }

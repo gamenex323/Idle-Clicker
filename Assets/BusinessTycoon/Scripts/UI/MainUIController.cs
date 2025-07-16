@@ -100,9 +100,11 @@ public class MainUIController : MonoBehaviour
     [SerializeField]
     private Image investorsNotifyImage;
 
-    private GameManager gameManager;
+    [HideInInspector] public GameManager gameManager;
 
     private double offlineCash = 0;
+
+    public string rewarType;
 
     public void ShowLevelCompleted()
     {
@@ -115,11 +117,11 @@ public class MainUIController : MonoBehaviour
         resetLevelPanel.Hide();
         if (GameManager.instance.LevelData.Completed)
         {
-            RewardUI.instance.Show(Reward.RewardGold(100));
+            RewardUI.instance.Show(RewardBusiness.RewardGold(100));
         }
         else
         {
-            RewardUI.instance.Show(Reward.RewardGold(500));
+            RewardUI.instance.Show(RewardBusiness.RewardGold(500));
             GameManager.instance.LevelData.Completed = true;
         }
     }
@@ -705,7 +707,7 @@ public class MainUIController : MonoBehaviour
                     SpinWheelShow();
                     break;
                 case "Gold":
-                    RewardUI.instance.Show(Reward.RewardGold((int)milestone.Effect));
+                    RewardUI.instance.Show(RewardBusiness.RewardGold((int)milestone.Effect));
                     break;
                 case "iEffect":
                     gameManager.LevelData.InvestorEffect += milestone.Effect;
@@ -735,13 +737,13 @@ public class MainUIController : MonoBehaviour
             switch (product.EffectType)
             {
                 case "TimeJump":
-                    var timeJump = Reward.RewardTimeJump((int)product.Effect);
+                    var timeJump = RewardBusiness.RewardTimeJump((int)product.Effect);
                     timeJump.Title = "You purchased";
                     timeJump.LongDescription = timeJump.Description;
                     RewardUI.instance.Show(timeJump);
                     break;
                 case "Gold":
-                    var gold = Reward.RewardGold((int)product.Effect);
+                    var gold = RewardBusiness.RewardGold((int)product.Effect);
                     gold.Title = "You purchased";
                     gold.LongDescription = gold.Description;
                     RewardUI.instance.Show(gold);
@@ -751,4 +753,6 @@ public class MainUIController : MonoBehaviour
             }
         }
     }
+
+
 }

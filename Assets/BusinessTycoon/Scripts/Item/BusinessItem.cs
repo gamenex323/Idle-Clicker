@@ -323,9 +323,13 @@ public class BusinessItem : MonoBehaviour
             businessUI.UpdateTimeRemaining(time);
         }
     }
-
+    public void ShowInterstitial()
+    {
+        AdsManager.Instance.ShowInterstitial();
+    }
     public void PurchaseBusiness()
     {
+
         if (business.PurchasedCount == 0)
         {
             businessUI.SetPurchaseState(true);

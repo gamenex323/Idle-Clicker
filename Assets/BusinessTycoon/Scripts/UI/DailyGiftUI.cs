@@ -15,7 +15,7 @@ public class DailyGiftUI : MonoBehaviour
 
     private RectTransform rectTransform;
 
-    private Reward[] rewards;
+    private RewardBusiness[] rewards;
 
     private void Awake()
     {
@@ -28,18 +28,18 @@ public class DailyGiftUI : MonoBehaviour
             Destroy(gameObject);
         }
 
-        rewards = new Reward[11];
-        rewards[0] = Reward.RewardGold(1);
-        rewards[1] = Reward.RewardGold(2);
-        rewards[2] = Reward.RewardGold(3);
-        rewards[3] = Reward.RewardGold(4);
-        rewards[4] = Reward.RewardGold(5);
-        rewards[5] = Reward.RewardGold(6);
-        rewards[6] = Reward.RewardGold(7);
-        rewards[7] = Reward.RewardGold(8);
-        rewards[8] = Reward.RewardGold(9);
-        rewards[9] = Reward.RewardGold(10);
-        rewards[10] = Reward.RewardGold(15);
+        rewards = new RewardBusiness[11];
+        rewards[0] = RewardBusiness.RewardGold(1);
+        rewards[1] = RewardBusiness.RewardGold(2);
+        rewards[2] = RewardBusiness.RewardGold(3);
+        rewards[3] = RewardBusiness.RewardGold(4);
+        rewards[4] = RewardBusiness.RewardGold(5);
+        rewards[5] = RewardBusiness.RewardGold(6);
+        rewards[6] = RewardBusiness.RewardGold(7);
+        rewards[7] = RewardBusiness.RewardGold(8);
+        rewards[8] = RewardBusiness.RewardGold(9);
+        rewards[9] = RewardBusiness.RewardGold(10);
+        rewards[10] = RewardBusiness.RewardGold(15);
     }
 
     private void Start()
